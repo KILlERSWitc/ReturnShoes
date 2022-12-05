@@ -1,46 +1,930 @@
-<HTML>
-    <HEAD>
-      <TITLE>Return Shoes</TITLE>
-    </HEAD>
-    <BODY>
-      <H1>Return Nike Shoes Form</H1>
-      <FORM action="mailto:simon.long@cit.ie" method="post" enctype="text/plain">
-        First Name : <INPUT type="text" name="firstname" placeholder="Enter name here">
-        Second Name : <INPUT type="text" name="secondname"  placeholder="Enter surname here">
-        <BR>
-        <BR>
-        <!--It's important that both of these radio button have the same name so they behave as one component (i.e. Only one can be selected at a time)-->  
-        <INPUT type="radio" name="gender" value="male">Male<BR>
-        <INPUT type="radio" name="gender" value="female">Female  
-        <BR>
-        <BR>
-        <!--This uses the new HTML "email" INPUT type which will automatically validates the email address when the SUBMIT button is clicked-->
-        Email: <INPUT type="email" name="mail" placeholder="e-mail address">
-        <BR>
-        <BR>
-        Home Address: <INPUT type="Home name="Address" placeholder="Enter Your Hone Adress">
-        <BR>
-        <BR>
-          Comment :<BR>        
-          <TEXTAREA rows="6" cols="50" name="commentfield"></TEXTAREA>
-          <BR>
-          <SELECT name="Shoes Chooser">
-            <OPTION value="Air Jordan 1">Air Jordan 1</OPTION>
-            <OPTION value="Air Jordan 2">Air Jordan 2</OPTION>
-            <OPTION value="Air Jordan 3">Air Jordan 3</OPTION>
-            <OPTION value="MOre">More</OPTION>
-          </SELECT>
-          <BR>
-          <BR>
-          <INPUT TYPE="submit" value="Return Shoes">
-          <INPUT TYPE="reset" value="Reset">
-            <BR>
-              <BR>
-          <section>
-            <li><a href="https://killerswitc.github.io/Ict-Creative-3/#">Go Back</a></li> 
-          </section>
-          
-      </FORM>
-      
-    </BODY>  
-  </HTML>
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+		
+			</style>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Nike Air Jordans</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		
+	
+		<!--welcome-hero start -->
+		<header id="home" class="welcome-hero">
+
+			<div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+				<!--/.carousel-indicator -->
+				 <ol class="carousel-indicators">
+					<li data-target="#header-carousel" data-slide-to="0" class="active"><span class="small-circle"></span></li>
+					<li data-target="#header-carousel" data-slide-to="1"><span class="small-circle"></span></li>
+					<li data-target="#header-carousel" data-slide-to="2"><span class="small-circle"></span></li>
+				</ol><!-- /ol-->
+				<!--/.carousel-indicator -->
+
+				<!--/.carousel-inner -->
+				<div class="carousel-inner" role="listbox">
+					<!-- .item -->
+					<div class="item active">
+						<div class="single-slide-item slide1">
+							<div class="container">
+								<div class="welcome-hero-content">
+									<div class="row">
+										<div class="col-sm-7">
+											<div class="single-welcome-hero">
+												<div class="welcome-hero-txt">
+													<h4>Great Design Collection of Jordans</h4>
+													<h2>Air Jordan 1</h2>
+													<p>
+													    Jordan sneakers are made with extremely high-quality materials like full-grain calfskin and premium leather uppers like boots. 
+													</p>
+													<div class="packages-price">
+														<p>
+															$ 180.00
+															<del>$ 500.00</del>
+														</p>
+													</div>
+													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
+														<span class="lnr lnr-plus-circle"></span>
+														add <span>to</span> cart
+													</button>
+													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
+														more info
+													</button>
+												</div><!--/.welcome-hero-txt-->
+											</div><!--/.single-welcome-hero-->
+										</div><!--/.col-->
+										<div class="col-sm-5">
+											<div class="single-welcome-hero">
+												<div class="welcome-hero-img">
+													<img src="assets/images/slider/slider1.png" alt="slider image">
+												</div><!--/.welcome-hero-txt-->
+											</div><!--/.single-welcome-hero-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+								</div><!--/.welcome-hero-content-->
+							</div><!-- /.container-->
+						</div><!-- /.single-slide-item-->
+
+					</div><!-- /.item .active-->
+
+					<div class="item">
+						<div class="single-slide-item slide2">
+							<div class="container">
+								<div class="welcome-hero-content">
+									<div class="row">
+										<div class="col-sm-7">
+											<div class="single-welcome-hero">
+												<div class="welcome-hero-txt">
+													<h4>Great Design Collection of Jordans</h4>
+													<h2>Air Jordan 2</h2>
+													<p>
+														AIR JORDAN 2 Michael Jordan's second signature model, the Air Jordan 2 first debuted in November 1986, and was designed by Bruce Killgore/Peter Moore. Created with high-end luxury in mind, the AJ2 was notable for its rich leather upper, lizard skin-style detailing, and noticeable lack of a Swoosh.
+													<div class="packages-price">
+														<p>
+															$ 250.00
+															<del>$ 700.00</del>
+														</p>
+													</div>
+													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
+														<span class="lnr lnr-plus-circle"></span>
+														add <span>to</span> cart
+													</button>
+													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
+														more info
+													</button>
+												</div><!--/.welcome-hero-txt-->
+											</div><!--/.single-welcome-hero-->
+										</div><!--/.col-->
+										<div class="col-sm-5">
+											<div class="single-welcome-hero">
+												<div class="welcome-hero-img">
+													<img src="assets/images/slider/slider2.png" alt="slider image">
+												</div><!--/.welcome-hero-txt-->
+											</div><!--/.single-welcome-hero-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+								</div><!--/.welcome-hero-content-->
+							</div><!-- /.container-->
+						</div><!-- /.single-slide-item-->
+
+					</div><!-- /.item .active-->
+
+					<div class="item">
+						<div class="single-slide-item slide3">
+							<div class="container">
+								<div class="welcome-hero-content">
+									<div class="row">
+										<div class="col-sm-7">
+											<div class="single-welcome-hero">
+												<div class="welcome-hero-txt">
+													<h4>Great Design Collection of Jordans</h4>
+													<h2>Air Jordan 3</h2>
+													<p>
+														The Air Jordan 3 is Michael Jordan's third signature basketball shoe and remains as one of the most sought after sneakers to-date. They were the first pair of Jordan sneakers that legendary designer Tinker Hatfield created, and they made their official debut in the year 1988.
+													</p>
+													<div class="packages-price">
+														<p>
+															$ 150.00
+															<del>$ 400.00</del>
+														</p>
+													</div>
+													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
+														<span class="lnr lnr-plus-circle"></span>
+														add <span>to</span> cart
+													</button>
+													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
+														more info
+													</button>
+												</div><!--/.welcome-hero-txt-->
+											</div><!--/.single-welcome-hero-->
+										</div><!--/.col-->
+										<div class="col-sm-5">
+											<div class="single-welcome-hero">
+												<div class="welcome-hero-img">
+													<img src="assets/images/slider/slider3.png" alt="slider image">
+												</div><!--/.welcome-hero-txt-->
+											</div><!--/.single-welcome-hero-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+								</div><!--/.welcome-hero-content-->
+							</div><!-- /.container-->
+						</div><!-- /.single-slide-item-->
+						
+					</div><!-- /.item .active-->
+				</div><!-- /.carousel-inner-->
+
+			</div><!--/#header-carousel-->
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <!-- Start Top Search -->
+				        <div class="top-search">
+				            <div class="container">
+				                <div class="input-group">
+				                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
+				                    <input type="text" class="form-control" placeholder="Search">
+				                    <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+				                </div>
+				            </div>
+				        </div>
+				        <!-- End Top Search -->
+
+				        <div class="container">            
+				            <!-- Start Atribute Navigation -->
+				            <div class="attr-nav">
+				                <ul>
+				                	<li class="search">
+				                		<a href="#"><span class="lnr lnr-magnifier"></span></a>
+				                	</li><!--/.search-->
+				                	<li class="nav-setting">
+				                		<a href="#"><span class="lnr lnr-cog"></span></a>
+				                	</li><!--/.search-->
+				                    <li class="dropdown">
+				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+				                            <span class="lnr lnr-cart"></span>
+											<span class="badge badge-bg-1">2</span>
+				                        </a>
+				                        <ul class="dropdown-menu cart-list s-cate">
+				                            <li class="single-cart-list">
+				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals1.png" class="cart-thumb" alt="image" /></a>
+				                                <div class="cart-list-txt">
+				                                	<h6><a href="#">Air <br> Jordan 4</a></h6>
+				                                	<p>1 x - <span class="price">$180.00</span></p>
+				                                </div><!--/.cart-list-txt-->
+				                                <div class="cart-close">
+				                                	<span class="lnr lnr-cross"></span>
+				                                </div><!--/.cart-close-->
+				                            </li><!--/.single-cart-list -->
+				                            <li class="single-cart-list">
+				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals2.png" class="cart-thumb" alt="image" /></a>
+				                                <div class="cart-list-txt">
+				                                	<h6><a href="#">Air <br> Jordan 5</a></h6>
+				                                	<p>1 x - <span class="price">$250.00</span></p>
+				                                </div><!--/.cart-list-txt-->
+				                                <div class="cart-close">
+				                                	<span class="lnr lnr-cross"></span>
+				                                </div><!--/.cart-close-->
+				                            </li><!--/.single-cart-list -->
+				                            <li class="single-cart-list">
+				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals3.png" class="cart-thumb" alt="image" /></a>
+				                                <div class="cart-list-txt">
+				                                	<h6><a href="#">Air <br>Jordan 6</a></h6>
+				                                	<p>1 x - <span class="price">$320.00</span></p>
+				                                </div><!--/.cart-list-txt-->
+				                                <div class="cart-close">
+				                                	<span class="lnr lnr-cross"></span>
+				                                </div><!--/.cart-close-->
+				                            </li><!--/.single-cart-list -->
+				                            <li class="total">
+				                                <span>Total: $0.00</span>
+				                                <button class="btn-cart pull-right" onclick="window.location.href='#'">view cart</button>
+				                            </li>
+				                        </ul>
+				                    </li><!--/.dropdown-->
+				                </ul>
+				            </div><!--/.attr-nav-->
+				            <!-- End Atribute Navigation -->
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">Nike Jordans</a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">home</a></li>
+				                    <li class="scroll"><a href="#new-arrivals">Best Seller Shoes</a></li>
+				                    <li class="scroll"><a href="#feature">Jordan x Collabs</a></li>
+				                    <li class="scroll"><a href="#blog">News</a></li>
+				                    <li class="scroll"><a href="#newsletter">contact</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+		</header><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--populer-products start -->
+		<section id="populer-products" class="populer-products">
+			<div class="container">
+				<div class="populer-products-content">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="single-populer-products">
+								<div class="single-populer-product-img mt40">
+									<img src="assets/images/populer-products/p1.png" alt="populer-products images">
+								</div>
+								<h2><a href="#">Air Jordan 7</a></h2>
+								<div class="single-populer-products-para">
+									<p>Designed by Tinker Hatfield, originally released in 1992. </p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single-populer-products">
+								<div class="single-inner-populer-products">
+									<div class="row">
+										<div class="col-md-4 col-sm-12">
+											<div class="single-inner-populer-product-img">
+												<img src="assets/images/populer-products/p2.png" alt="populer-products images">
+											</div>
+										</div>
+										<div class="col-md-8 col-sm-12">
+											<div class="single-inner-populer-product-txt">
+												<h2>
+													<a href="#">
+														Air Jordan 8
+													</a>
+												</h2>
+												<p>
+													The Air Jordan 8 is Michael Jordan's eighth signature basketball shoe. It released in 1993 during MJ's “Three-Peat” Championship season. Created by Tinker Hatfield, this is the last shoe that Jordan wore before his first retirement.
+												</p>
+												<div class="populer-products-price">
+													<h4>Sales Start from <span>$99.00</span></h4>
+												</div>
+												<button class="btn-cart welcome-add-cart populer-products-btn" onclick="window.location.href='#'">
+													discover more
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="single-populer-products">
+								<div class="single-populer-products">
+									<div class="single-populer-product-img">
+										<img src="assets/images/populer-products/p3.png" alt="populer-products images">
+									</div>
+									<h2><a href="#">Air Jordan 9</a></h2>
+									<div class="single-populer-products-para">
+										<p>The Air Jordan 9 was released in 1993.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.populer-products-->
+		<!--populer-products end-->
+
+		<!--new-arrivals start -->
+		<section id="new-arrivals" class="new-arrivals">
+			<div class="container">
+				<div class="section-header">
+					<h2>Best Seller</h2>
+				</div><!--/.section-header-->
+				<div class="new-arrivals-content">
+					<div class="row">
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals1.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-1">
+										<p>Sold Out</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 4</a></h4>
+								<p class="arrival-product-price">$180.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals2.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-2">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 5</a></h4>
+								<p class="arrival-product-price">$250.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals3.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 6</a></h4>
+								<p class="arrival-product-price">$320.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals4.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-1">
+										<p>Sold Out</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 10</a></h4>
+								<p class="arrival-product-price">$150.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals5.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 17</a></h4>
+								<p class="arrival-product-price">$200.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals6.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-1">
+										<p>Sold Out</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 18</a></h4>
+								<p class="arrival-product-price">$160.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals7.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-2">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 19</a></h4>
+								<p class="arrival-product-price">$299.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals8.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">Air Jordan 23</a></h4>
+								<p class="arrival-product-price">$170.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+		
+		</section><!--/.new-arrivals-->
+		<!--new-arrivals end -->
+
+		<!--sofa-collection start -->
+		<section id="sofa-collection">
+			<div class="owl-carousel owl-theme" id="collection-carousel">
+				<div class="sofa-collection collectionbg1">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>Meet Micheal Jordan Himeself</h2>
+							<p>
+								For $1 million you can meet the man behind Jordans for 3 hours talk to him play basketball with him and all top of that you can get a signed pair of Jordans, what are you waiting buuy 3 hours with MJ.
+							</p>
+							<div class="sofa-collection-price">
+								<h4>starting from <span>$ 1,000,000 million</span></h4>
+							</div>
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+								view more
+							</button>
+						</div>
+					</div>	
+				</div><!--/.sofa-collection-->
+				<div class="sofa-collection collectionbg2">
+					<div class="owl-carousel owl-theme" id="collection-carousel"></div>
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>Watch MJ play a live NBA game</h2>
+							<p>
+								MJ will come back from retirement just to play one special NBA game just for you!
+							</p>
+							<div class="sofa-collection-price">
+								<h4>starting from <span>$ 500,000k</span></h4>
+							</div>
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+								view more
+							</button>
+						</div>
+					</div>
+				</div><!--/.sofa-collection-->
+			</div><!--/.collection-carousel-->
+
+		</section><!--/.sofa-collection-->
+		<!--sofa-collection end -->
+
+		<!--feature start -->
+		<section id="feature" class="feature">
+			<div class="container">
+				<div class="section-header">
+					<h2>Jordan x Collabs</h2>
+				</div><!--/.section-header-->
+				<div class="feature-content">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="single-feature">
+								<img src="assets/images/collection/Trophy-Room-x-Air-Jordan-1-High-OG-1-3.jpg" alt="feature image">
+								<div class="single-feature-txt text-center">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(167,340 reviews)</span>
+									</p>
+									<h3><a href="#">Trophy Room x Air Jordan 1 High Freeze Out</a></h3>
+									<h5>$950.00</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-feature">
+								<img src="assets/images/features/f2.jpg" alt="feature image">
+								<div class="single-feature-txt text-center">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(148,900 reviews)</span>
+									</p>
+									<h3><a href="#">Travis Scott x Fragments x Air Jordan 1 Low</a></h3>
+									<h5>$1500.00</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-feature">
+								<img src="assets/images/features/f3.jpg" alt="feature image">
+								<div class="single-feature-txt text-center">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="feature-review">(1,345,890 reviews)</span>
+									</p>
+									<h3><a href="#">Satan Shoes x Lil Nas X x Scorpian Venom</a></h3>
+									<h5>$5,000,000.00</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-feature">
+								<img src="assets/images/features/14.jpeg" alt="feature image">
+								<div class="single-feature-txt text-center">
+									<p>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<span class="spacial-feature-icon"><i class="fa fa-star"></i></span>
+										<span class="feature-review">(27,729 reviews)</span>
+									</p>
+									<h3><a href="#">Aleali May Air Jordan 1 Zoom Comfort “Califia” and Air Jordan 14 Low</a></h3>
+									<h5>$650.00</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.feature-->
+		<!--feature end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog">
+			<div class="container">
+				<div class="section-header">
+					<h2>Nike News</h2>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="single-blog">
+								<div class="single-blog-img">
+									<img src="assets/images/blog/kanye.jpeg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt">
+									<h2><a href="#">Is Nike Going to Sign a Contract with Kanye West?</a></h2>
+									<h3>By <a href="#">Shlok Manish Bohra</a> / 3rd December 2022</h3>
+									<p>
+										Nike may sign a contract with Kanye West since he lost his contract  with Adidas for his famous Yeezys shoes. Adidas dropped his 1 billion contract because of the controversy of others thinking of him as a gnangster.
+									</p>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-sm-4">
+							<div class="single-blog">
+								<div class="single-blog-img">
+									<img src="assets/images/blog/b2.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt">
+									<h2><a href="#">Will Travis Scott Shoes No More will be sold by Nike?</a></h2>
+									<h3>By <a href="#">Shlok Manish Bohra</a> / 1st December 2022</h3>
+									<p>
+										After the Astronomical Incident where Travis countinued to sing after his fans were being killed. He is getting cancelled by the public and for Nike it is bad.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="single-blog">
+								<div class="single-blog-img">
+									<img src="assets/images/blog/Nike.webp" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt">
+									<h2><a href="#">Nike is going Reverse Shopping</a></h2>
+									<h3>By <a href="#">Shlok Manish Bohra</a> / 23rd November 2022</h3>
+									<p>
+										 Nike is starting Reverse Shopping for a new campaign they are doing. In Reverse Shopping you give your old shoes and nike will refurbish and sell at a cheaper price.	
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+
+		<!-- clients strat -->
+		<section id="clients"  class="clients">
+			<div class="container">
+				<div class="owl-carousel owl-theme" id="client">
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c1.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c2.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c3.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c4.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c5.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+
+			</div><!--/.container-->
+
+		</section><!--/.clients-->	
+		<!-- clients end -->
+
+		<!--newsletter strat -->
+		<section id="newsletter"  class="newsletter">
+			<div class="container">
+				<div class="hm-footer-details">
+					<div class="row">
+						<div class=" col-md-3 col-sm-6 col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>information</h4>
+								</div><!--/.hm-foot-title-->
+								<div class="hm-foot-menu">
+									<ul>
+										<li><a href="#">about us</a></li><!--/li-->
+										<li><a href="#">contact us</a></li><!--/li-->
+										<li><a href="#">news</a></li><!--/li-->
+										<li><a href="#">store</a></li><!--/li-->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-menu-->
+							</div><!--/.hm-footer-widget-->
+						</div><!--/.col-->
+						<div class=" col-md-3 col-sm-6 col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>collections</h4>
+								</div><!--/.hm-foot-title-->
+								<div class="hm-foot-menu">
+									<ul>
+										<li><a href="#">Air Jordan 1</a></li><!--/li-->
+										<li><a href="#">Air Jordan 2</a></li><!--/li-->
+										<li><a href="#">Air Jordan 3</a></li><!--/li-->
+										<li><a href="#">Satan Shoes</a></li><!--/li-->
+										<li><a href="#">Air Jordan 17</a></li><!--/li-->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-menu-->
+							</div><!--/.hm-footer-widget-->
+						</div><!--/.col-->
+						<div class=" col-md-3 col-sm-6 col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>my accounts</h4>
+								</div><!--/.hm-foot-title-->
+								<div class="hm-foot-menu">
+									<ul>
+										<li><a href="#">my account</a></li><!--/li-->
+										<li><a href="#">wishlist</a></li><!--/li-->
+										<li><a href="#">Community</a></li><!--/li-->
+										<li><a href="#">order history</a></li><!--/li-->
+										<li><a href="#">my cart</a></li><!--/li-->
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-menu-->
+							</div><!--/.hm-footer-widget-->
+						</div><!--/.col-->
+						<div class=" col-md-3 col-sm-6  col-xs-12">
+							<div class="hm-footer-widget">
+								<div class="hm-foot-title">
+									<h4>newsletter</h4>
+								</div><!--/.hm-foot-title-->
+								<div class="hm-foot-para">
+									<p>
+										Subscribe  to get latest news,update and information.
+									</p>
+								</div><!--/.hm-foot-para-->
+								<div class="hm-foot-email">
+									<div class="foot-email-box">
+										<input type="text" class="form-control" placeholder="Enter Email Here....">
+									</div><!--/.foot-email-box-->
+									<div class="foot-email-subscribe">
+										<span><i class="fa fa-location-arrow"></i></span>
+									</div><!--/.foot-email-icon-->
+								</div><!--/.hm-foot-email-->
+							</div><!--/.hm-footer-widget-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.hm-footer-details-->
+				<section>
+					<li><a href="https://killerswitc.github.io/ReturnShoes/">Return Shoes</a></li>
+
+				</section>
+			</div><!--/.container-->
+
+		</section><!--/newsletter-->	
+		<!--newsletter end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="hm-footer-copyright text-center">
+					<div class="footer-social">
+						<a href="#"><i class="fa fa-facebook"></i></a>	
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+						<a href="#"><i class="fa fa-youtube"></i></a>	
+					</div>
+					
+					<p>
+						&copy;copyright.Shlok Manish Bohra Shoes</a>
+					</p><!--/p-->
+				</div><!--/.text-center-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
